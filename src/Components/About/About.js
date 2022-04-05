@@ -3,7 +3,7 @@ import React from 'react';
 const About = () => {
     return (
         <div>
-            <h3>This is about</h3>
+            <h2 className="text-4xl mt-8">This is about</h2>
         </div>
     );
 };

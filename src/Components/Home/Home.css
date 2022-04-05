@@ -4,6 +4,10 @@
     align-items:center;
     margin-top:20px;
 }
+.review-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
 .live-demo-btn{
     background-color:rgba(222, 61, 176, 0.827);
     padding:15px 25px;

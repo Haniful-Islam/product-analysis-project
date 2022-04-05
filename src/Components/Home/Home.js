@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import Car from '../../assets/Images/Car.jpg'
-import useReviews from '../../hooks/useReviews'
+import Car from '../../assets/Images/Car.jpg';
+import useReviews from '../../hooks/useReviews';
 import './Home.css';
 
 
@@ -19,7 +19,7 @@ const Home = () => {
                     <button className="live-demo-btn">Live Demo</button>
                 </div>
                 <div className="img-right">
-                <img width="80%" height=""src={Car} alt="" />
+                <img width="90%" src={Car} alt="" />
                     
                 </div>
             </div>
@@ -28,15 +28,15 @@ const Home = () => {
                 <div className='review-container'>
                     {
                         reviews.slice(0, 3).map(review => (
-                            <div key={review._id} className='p-5 m-5 border-2 border-red-600 rounded bg-red-100'>
+                            <div key={review._id} className='p-5 m-5 border-2 border-lime-600 rounded bg-purple-100'>
                                 <h1 className='text-xl font-bold'>{review.name}</h1>
                                 <p className='my-3'>{review.comment}</p>
-                                <p>Ratting: <span className='text-red-600 font-bold'>{review.ratting}</span></p>
+                                <p>Rating: <span className='text-yellow-400 font-bold'>{review.rating}</span></p>
                             </div>
                         ))
                     }
                 </div>
-                <button onClick={() => navigate("/reviews")} className='all-reviews-btn'>View All Reviews</button>
+                <button onClick={() => navigate('/reviews')} className='all-reviews-btn'>View All Reviews</button>
             </div>
         </div>
 

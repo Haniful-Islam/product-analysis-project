@@ -2,35 +2,35 @@
     "_id": "1",
     "name": "Rayhan Rafi",
     "comment": "Very nice",
-    "ratting": 4.9
+    "rating": 4.9
 },
 {
     "_id": "2",
     "name": "Muhammead bin Salman",
     "comment": "Good job",
-    "ratting": 4.5
+    "rating": 4.5
 },
 {
     "_id": "3",
     "name": "Humayan Kobir",
     "comment": "excellent.",
-    "ratting": 4.8
+    "rating": 4.8
 },
 {
     "_id": "4",
     "name": "Glen Maxwel",
     "comment": "very very nice",
-    "ratting": 4.7
+    "rating": 4.7
 },
 {
     "_id": "5",
     "name": "Steven Smit",
     "comment": "wow, excellent",
-    "ratting": 4.9
+    "rating": 4.9
 },
 {
     "_id": "6",
     "name": "Shakib Al Hasan",
     "comment": "WOW, Awesome",
-    "ratting": 4.7
+    "rating": 4.7
 }]

@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-// import ferari from './Images/ferari.jpg';
+import Car from '../../assets/Images/Car.jpg'
 import useReviews from '../../hooks/useReviews'
 import './Home.css';
 
@@ -14,13 +14,13 @@ const Home = () => {
             <div className='car-section'>
                 <div className="banner-left">
                     <h2 className='text-3xl md:text-6xl font-bold'>Your next Cars</h2>
-                    <h2 className='text-3xl md:text-6xl font-bold text-red-600 my-6'>Your Best Cart</h2>
+                    <h2 className='text-3xl md:text-6xl font-bold text-red-600 my-6'>Your Best Car</h2>
                     <p>It is my Dream Car.The car is very Beautiful. I am Car Lover...</p>
-                    <button className='mt-6 px-6 py-3 bg-red-600 border rounded font-bold text-xl hover:text-white duration-300'>Live Demo</button>
+                    <button className="live-demo-btn">Live Demo</button>
                 </div>
                 <div className="img-right">
-                    {/* <img src={ferari} alt="" /> */}
-                    <h3>the picture</h3>
+                <img width="80%" height=""src={Car} alt="" />
+                    
                 </div>
             </div>
             <div className='my-6'>
@@ -36,7 +36,7 @@ const Home = () => {
                         ))
                     }
                 </div>
-                <button onClick={() => navigate("/reviews")} className='mt-6 px-6 py-3 bg-red-600 border rounded font-bold text-xl hover:text-white duration-300 text-center block mx-auto'>View All Reviews</button>
+                <button onClick={() => navigate("/reviews")} className='all-reviews-btn'>View All Reviews</button>
             </div>
         </div>
 

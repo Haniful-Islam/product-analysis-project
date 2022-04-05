@@ -4,3 +4,22 @@
     align-items:center;
     margin-top:20px;
 }
+.live-demo-btn{
+    background-color:rgba(222, 61, 176, 0.827);
+    padding:15px 25px;
+    color:white;
+    font-size:18px;
+    font-weight: bold;
+    margin-top:20px;
+    border-radius:10px;
+
+}
+.all-reviews-btn{
+    background-color:rgba(222, 61, 176, 0.827);
+    padding:15px 25px;
+    color:white;
+    font-size:18px;
+    font-weight: bold;
+    margin-top:20px;
+    border-radius:10px;
+}

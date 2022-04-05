@@ -31,7 +31,7 @@ const Home = () => {
                             <div key={review._id} className='p-5 m-5 border-2 border-lime-600 rounded bg-purple-100'>
                                 <h1 className='text-xl font-bold'>{review.name}</h1>
                                 <p className='my-3'>{review.comment}</p>
-                                <p>Rating: <span className='text-yellow-400 font-bold'>{review.rating}</span></p>
+                                <p>Rating: <span className='text-yellow-400 font-bold'>{review.rating}stars</span></p>
                             </div>
                         ))
                     }

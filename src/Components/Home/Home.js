@@ -2,7 +2,7 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 // import ferari from './Images/ferari.jpg';
 import useReviews from '../../hooks/useReviews'
-import './Home.css'
+import './Home.css';
 
 
 const Home = () => {
@@ -11,7 +11,7 @@ const Home = () => {
 
     return (
         <div>
-            <div className='banner flex items-center justify-between'>
+            <div className='car-section'>
                 <div className="banner-left">
                     <h2 className='text-3xl md:text-6xl font-bold'>Your next Cars</h2>
                     <h2 className='text-3xl md:text-6xl font-bold text-red-600 my-6'>Your Best Cart</h2>

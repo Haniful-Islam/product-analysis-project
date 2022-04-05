@@ -1,0 +1,14 @@
+nav{
+    padding:30px 0;
+    background-color:rgba(222, 61, 176, 0.827)
+}
+nav a{
+    text-decoration: none;
+    margin-right:40px;
+    font-size:18px;
+    color:#fff;
+    font-weight: 600;
+}
+nav a:hover{
+    color:#333;
+}

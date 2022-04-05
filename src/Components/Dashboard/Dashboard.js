@@ -43,7 +43,7 @@ const Dashboard = () => {
     return (
         <div className="chart">
             <div>
-                <h1 className="text-4xl">LineChart</h1>
+                <h1 className="text-4xl text-pink-400 my-10">LineChart</h1>
                 <LineChart width={600} height={400} data={data}>
                  <Line dataKey={"revenue"}></Line>
                 <Line dataKey={"investment"}></Line>
@@ -53,8 +53,8 @@ const Dashboard = () => {
                 </LineChart>
             </div>
             <div>
-                <h1 className="text-4xl">BarChart</h1>
-            <BarChart width={730} height={400} data={data}>
+                <h1 className="text-4xl text-pink-400 my-10">BarChart</h1>
+            <BarChart width={600} height={400} data={data}>
                 <CartesianGrid strokeDasharray="3 3" />
                 <XAxis dataKey="month" />
                 <YAxis />
